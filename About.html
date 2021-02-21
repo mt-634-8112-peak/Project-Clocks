@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+   <head>
+      <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
+      <link href='https://fonts.googleapis.com/css?family=Clicker Script' rel='stylesheet'>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgc3R5bGU9ImZpbGw6I2IyYjJiMiIvPjxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjMwIiBzdHlsZT0ic3Ryb2tlOmJsYWNrO3N0cm9rZS13aWR0aDo1bW07ZmlsbDpyZ2IoMCwwLDAsMCk7Ii8+PGNpcmNsZSBjeD0iNTAiIGN5PSIyMCIgcj0iNSIgc3R5bGU9ImZpbGw6I0ZGRkZGRiIgLz48Y2lyY2xlIGN4PSI1MCIgY3k9IjgwIiByPSI1IiBzdHlsZT0iZmlsbDojMDBGRjAwIi8+PGNpcmNsZSBjeD0iMjAiIGN5PSI1MCIgcj0iNSIgc3R5bGU9ImZpbGw6IzAwMDBGRiIvPjxjaXJjbGUgY3g9IjgwIiBjeT0iNTAiIHI9IjUiIHN0eWxlPSJmaWxsOiNGRjAwMDAiLz48L3N2Zz4=">
+      <title>Personal Project Clocks</title>
+      <style>
+      body{scroll-behavior:smooth;margin:5mm;font-family:sans-serif;background-color:#f0f0f0;}
+      header{float:right;padding:5mm;position:sticky;top:0%;left: 100%;background:linear-gradient(#252525, black, #151515);width:35%;height:15%;border-radius:7vmin;margin:3% 0% 0% 0%;box-shadow:3px 3px 5px gray;max-height:50vmin;}
+      .header-section{position:sticky;text-align:left;display:inline;color:white;width:50%;height:5%;font-size:4.5vmin;white-space:pre;padding:1mm}
+      main{padding:4mm;display:inline-block;background-color:rgb(250, 250, 250, 0.85 );width:90%;height:85%;margin:3mm 5% 3mm 5%;line-height:1.4;word-break:break-all;font-size:1.2em;}
+         label{padding:3mm 1cm 3mm 3mm;text-align:center;background-color:#e0e0e0;font-size:3vmin;cursor:pointer;display:inline-block;float:left;}
+         label:hover{border:2px solid deepskyblue;filter:brightness(80%);}
+         input:checked{animation-name:dark;animation-duration:1s;background-color:#303030;width:110%;height:110%;z-index:-1;display:block;position:fixed;bottom:0%;right:0%;top:-10%;left:-10%;pointer-events:none;border:none;}
+         input{appearance:none;}
+         span a{color:white;text-decoration:underline dashed blue;padding:1mm;white-space:pre;font-size:1.8vw;}
+         span a:focus, span a:hover{text-decoration-style:solid;}
+         span a:visited{color:white;}
+         a{text-decoration:none;}
+         .r{text-decoration-color:#ff0000}
+         .g{text-decoration-color:#00ff00}
+         .b{text-decoration-color:#0000ff}
+         @keyframes dark{
+            from{background-color:#f0f0f0;}
+            to{background-color:#303030;}
+         }
+      </style>
+   </head>
+   <body>
+      <label for="dark">Enable Dark Theme</label><input id="dark" type="checkbox">
+      <header>
+         <svg viewbox="0 0 100 100" preserveAspectRatio="none;" style="background-color:#e5e5e5;float:right;max-height:15vh;max-width:15vw;" width="100" height="100"><circle cx="50" cy="50" r="30" style="stroke:black;stroke-width:5mm;fill:rgb(0,0,0,0);"/><circle cx="50" cy="20" r="5" style="fill:#FFFFFF" /><circle cx="50" cy="80" r="5" style="fill:#00FF00"/><circle cx="20" cy="50" r="5" style="fill:#0000FF"/><circle cx="80" cy="50" r="5" style="fill:#FF0000"/></svg>
+         <h1 style="border:1px solid white;color:white;width:80%;height:10%;top:0%;left:50%;font-size:4.2vmin;border-radius:0.5mm;margin-right:5mm;">Personal Project Clocks</h1>
+         <span class="header-section">|<a class="r" href="https://mt-634-8112-peak.github.io/Project-Clocks/">  Home  </a>|<a class="g" href="">  About  </a>|<a class="b" href="">  Clocks  </a>|</span>
+      </header>
+      <h1 style="display:inline-block;height:15%;padding:5mm;margin:5% 0% 10% 5%;text-shadow:0px 0px 4px white;"><a href=""><span style="font-family:Audiowide;color:black;font-size:115%">Digital Clocks</span></a> <a href=""><span style="font-family:'Clicker Script';color:#459fff/*#1E90FF#6fa9cf#4169E1#20B2AA*/;font-size:160%;text-shadow:0px 0px 3px white;">Mechanical <span style="color:#80cb55">Clocks</span></span></a></h1>
+      <main>
+      This is the about section. I will describe background info here.
+      </main>
+   </body>
+</html>
