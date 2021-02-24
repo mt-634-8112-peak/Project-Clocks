@@ -1,0 +1,19 @@
+body{scroll-behavior:smooth;margin:5mm;font-family:sans-serif;background-color:#f0f0f0;}
+      header{float:right;padding:5mm;position:sticky;top:0%;left: 100%;background:linear-gradient(#252525, black, #151515);width:35%;height:15%;border-radius:7vmin;margin:3% 0% 0% 0%;box-shadow:3px 3px 5px gray;max-height:50vmin;}
+      .header-section{position:sticky;text-align:left;display:inline;color:white;width:50%;height:5%;font-size:4.5vmin;white-space:pre;padding:1mm}
+      main{padding:4mm;display:inline-block;background-color:rgb(250, 250, 250, 0.85 );width:90%;height:85%;margin:3mm 5% 3mm 5%;line-height:1.4;word-break:break-all;font-size:1.2em;}
+         label{padding:3mm 1cm 3mm 3mm;text-align:center;background-color:#e0e0e0;font-size:3vmin;cursor:pointer;display:inline-block;float:left;}
+         label:hover{border:2px solid deepskyblue;filter:brightness(80%);}
+         input:checked{animation-name:dark;animation-duration:1s;background-color:#303030;width:110%;height:110%;z-index:-1;display:block;position:fixed;bottom:0%;right:0%;top:-10%;left:-10%;pointer-events:none;border:none;}
+         input{appearance:none;}
+         span a{color:white;text-decoration:underline dashed blue;padding:1mm;white-space:pre;font-size:1.8vw;}
+         span a:focus, span a:hover{text-decoration-style:solid;}
+         span a:visited{color:white;}
+         a{text-decoration:none;}
+         .r{text-decoration-color:#ff0000}
+         .g{text-decoration-color:#00ff00}
+         .b{text-decoration-color:#0000ff}
+         @keyframes dark{
+            from{background-color:#f0f0f0;}
+            to{background-color:#303030;}
+         }
