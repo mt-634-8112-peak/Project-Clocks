@@ -17,6 +17,6 @@ body{scroll-behavior:smooth;margin:5mm;font-family:sans-serif;background-color:#
             from{background-color:#f0f0f0;}
             to{background-color:#303030;}
          }
-.maindark{border-bottom:2p dashed #797979}
+.maindark{border-bottom:2px dashed #797979}
 .mainrgb{border-bottom:2px dashed #EF2044}
-.maindark:hover. maindark:focus, mainrgb:hover, mainrgb:focus{border-bottom-style:solid}
+.maindark:hover, maindark:focus, mainrgb:hover, mainrgb:focus{border-bottom-style:solid}
