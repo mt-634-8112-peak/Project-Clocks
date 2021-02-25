@@ -19,4 +19,7 @@ body{scroll-behavior:smooth;margin:5mm;font-family:sans-serif;background-color:#
          }
 .maindark{border-bottom:2px dashed #797979}
 .mainrgb{border-bottom:2px dashed #EF2044}
-.maindark:hover, maindark:focus, mainrgb:hover, mainrgb:focus{border-bottom-style:solid}
+.mainrgb:focus{border-bottom-style:solid}
+.mainrgb:hover{border-bottom-style:solid}
+.maindark:focus{border-bottom-style:solid}
+.maindark:hover{border-bottom-style:solid}
