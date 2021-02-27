@@ -26,3 +26,4 @@ body{scroll-behavior:smooth;margin:5mm;font-family:sans-serif;background-color:#
 .mainrgb:hover{border-bottom-style:solid}
 .maindark:focus{border-bottom-style:solid}
 .maindark:hover{border-bottom-style:solid}
+img{filter:brightness(85%);}
