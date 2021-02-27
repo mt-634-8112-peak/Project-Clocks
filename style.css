@@ -6,7 +6,7 @@ body{scroll-behavior:smooth;margin:5mm;font-family:sans-serif;background-color:#
          label:hover{border:2px solid deepskyblue;filter:brightness(80%);}
          input:checked{animation-name:dark;animation-duration:1s;background-color:#303030;width:110%;height:110%;z-index:-1;display:block;position:fixed;bottom:0%;right:0%;top:-10%;left:-10%;pointer-events:none;border:none;}
          input{appearance:none;}
-         span a{color:white;text-decoration:underline dashed blue;padding:1mm;white-space:pre;font-size:1.8vw;}
+         span a{color:white;text-decoration:underline dashed blue;padding:1mm;white-space:pre;font-size:1.8vw;border:none;}
          span a:focus, span a:hover{text-decoration-style:solid;}
          span a:visited{color:white;}
          .r{text-decoration-color:#ff0000}
@@ -16,6 +16,9 @@ body{scroll-behavior:smooth;margin:5mm;font-family:sans-serif;background-color:#
             from{background-color:#f0f0f0;}
             to{background-color:#303030;}
          }
+         a{text-decoration:none;border-bottom;2px dashed blue;}
+         a:hover{border-bottom-style:solid}
+         a:focus{border-bottom-style:solid}
 .maindark{text-decoration:none;border-bottom:2px dashed #898989}
 .mainrgb{text-decoration:none;border-bottom:2px dashed #EF2044}
 .mainrgb:focus{border-bottom-style:solid}
