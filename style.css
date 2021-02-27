@@ -9,7 +9,6 @@ body{scroll-behavior:smooth;margin:5mm;font-family:sans-serif;background-color:#
          span a{color:white;text-decoration:underline dashed blue;padding:1mm;white-space:pre;font-size:1.8vw;}
          span a:focus, span a:hover{text-decoration-style:solid;}
          span a:visited{color:white;}
-         a{text-decoration:none;}
          .r{text-decoration-color:#ff0000}
          .g{text-decoration-color:#00ff00}
          .b{text-decoration-color:#0000ff}
