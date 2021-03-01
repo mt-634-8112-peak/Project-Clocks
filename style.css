@@ -27,4 +27,4 @@ body{scroll-behavior:smooth;margin:5mm;font-family:sans-serif;background-color:#
 .maindark:focus{border-bottom-style:solid}
 .maindark:hover{border-bottom-style:solid}
 img{filter:brightness(88%);}
-option:hover{background-color:white;}
+option:hover, select:hover{background-color:white;}
